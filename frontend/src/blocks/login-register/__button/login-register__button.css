@@ -1,0 +1,19 @@
+.login-register__button {
+  margin-top: 215px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 358px;
+}
+
+.login-register__button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 599px) {
+  .login-register__button {
+    width: 260px;
+    margin-top: 173px;
+  }
+}

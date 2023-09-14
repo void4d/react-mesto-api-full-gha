@@ -1,0 +1,28 @@
+.profile__edit-button {
+  grid-area: editButton;
+  width: 24px;
+  height: 24px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  background: no-repeat center url(../../../images/Icon-pen.svg);
+  display: inline-flex;
+  cursor: pointer;
+  padding: 0;
+}
+
+@-moz-document url-prefix() {
+  .profile__edit-button {
+    align-self: center;
+  }
+}
+
+.profile__edit-button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 895px) {
+  .profile__edit-button {
+    width: 18px;
+    height: 18px;
+  }
+}

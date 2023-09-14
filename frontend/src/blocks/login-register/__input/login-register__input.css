@@ -1,0 +1,32 @@
+.login-register__input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 8px;
+  padding-left: 0;
+  color: white;
+  width: 358px;
+}
+
+.login-register__input:focus {
+  border-bottom: 2px solid cyan;
+  outline: none;
+}
+
+.login-register__input::placeholder {
+  color: #cccccc;
+}
+
+.login-register__input:first-of-type {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 599px) {
+  .login-register__input {
+    width: 260px;
+  }
+
+  .login-register__input:first-of-type {
+    margin-bottom: 30px;
+  }
+}

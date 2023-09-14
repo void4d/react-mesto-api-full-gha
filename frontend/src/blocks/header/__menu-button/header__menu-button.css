@@ -1,0 +1,16 @@
+.header__menu-button {
+  margin-top: 4px;
+  width: 24px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 599px) {
+  .header__menu-button {
+    display: flex;
+    margin-right: 30px;
+  }
+}
