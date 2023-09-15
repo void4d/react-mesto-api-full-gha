@@ -1,3 +1,4 @@
+require('dotenv').config;
 const userSchema = require('../models/user')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
@@ -7,7 +8,7 @@ const UnauthorizedError = require('../errors/unauthorized-err')
 const BadRequestError = require('../errors/bad-request-err')
 
 const SALT_ROUNDS = 10
-const JWT_SECRET = process.env.JWT_SECRET_KEY
+const { JWT_SECRET = 'secret' } = process.env
 
 function getUsers(req, res, next) {
   return userSchema
@@ -128,6 +129,8 @@ function login(req, res, next) {
         }
 
         const token = jwt.sign({ id: r.id }, JWT_SECRET, { expiresIn: '7d' })
+
+
 
         return res.status(200).send({ token })
       })
