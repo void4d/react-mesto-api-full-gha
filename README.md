@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес IP 51.250.107.91
+IP 51.250.107.91
 
 Frontend https://void4d-mesto.nomoredomainsicu.ru/
 
