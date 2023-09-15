@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 51.250.107.91
 
-Frontend https://...
+Frontend https://github.com/void4d/react-mesto-auth
 
-Backend https://...
+Backend https://github.com/void4d/express-mesto-gha
