@@ -8,7 +8,7 @@ const UnauthorizedError = require('../errors/unauthorized-err')
 const BadRequestError = require('../errors/bad-request-err')
 
 const SALT_ROUNDS = 10
-const { JWT_SECRET = 'secret' } = process.env
+const { JWT_SECRET_KEY = 'secret' } = process.env
 
 function getUsers(req, res, next) {
   return userSchema
@@ -128,7 +128,7 @@ function login(req, res, next) {
           throw new UnauthorizedError('Неверный пароль или почта')
         }
 
-        const token = jwt.sign({ id: r.id }, JWT_SECRET, { expiresIn: '7d' })
+        const token = jwt.sign({ id: r.id }, JWT_SECRET_KEY, { expiresIn: '7d' })
 
 
 
