@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.107.91
+IP-адрес IP 51.250.107.91
 
-Frontend https://github.com/void4d/react-mesto-auth
+Frontend https://void4d-mesto.nomoredomainsicu.ru/
 
-Backend https://github.com/void4d/express-mesto-gha
+Backend https://api.void4d-mesto.nomoredomainsicu.ru/

@@ -24,6 +24,12 @@ app.disable('x-powered-by')
 
 app.use(requestLogger);
 
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+}); 
+
 app.post(
   '/signin',
   celebrate({
