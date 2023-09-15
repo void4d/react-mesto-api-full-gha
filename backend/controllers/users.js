@@ -7,7 +7,7 @@ const UnauthorizedError = require('../errors/unauthorized-err')
 const BadRequestError = require('../errors/bad-request-err')
 
 const SALT_ROUNDS = 10
-const JWT_SECRET = 'secretstring'
+const JWT_SECRET = process.env.JWT_SECRET_KEY
 
 function getUsers(req, res, next) {
   return userSchema
