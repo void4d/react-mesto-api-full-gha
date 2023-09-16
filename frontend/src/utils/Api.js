@@ -106,7 +106,7 @@ export default class Api {
 }
 
 export const api = new Api({
-  url: 'https://api.void4d-mesto.nomoredomainsicu.ru/',
+  url: 'https://api.void4d-mesto.nomoredomainsicu.ru',
 })
 
 

@@ -52,5 +52,5 @@ export default class Auth {
 }
 
 export const auth = new Auth({
-  url: 'https://api.void4d-mesto.nomoredomainsicu.ru/'
+  url: 'https://api.void4d-mesto.nomoredomainsicu.ru'
 })
