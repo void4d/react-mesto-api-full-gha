@@ -1,0 +1,18 @@
+.login-register__error-message {
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: block;
+  position: absolute;
+  margin-left: 2px;
+  top: 35px;
+  left: 0;
+}
+
+
+@media screen and (max-width: 599px) {
+  .login-register__error-message {
+    max-width: 238px;
+  }
+}

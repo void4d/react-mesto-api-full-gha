@@ -47,6 +47,8 @@ body {
 @import url(./blocks/login-register/__text/login-register__text.css);
 @import url(./blocks/login-register/__input/login-register__input.css);
 @import url(./blocks/login-register/__button/login-register__button.css);
+@import url(./blocks/login-register/__input-container/login-register__input-container.css);
+@import url(./blocks/login-register/__error-message/login-register__error-message.css);
 @import url(./blocks/header/__login-logout-text/header__login-logout-text.css);
 @import url(./blocks/popup/__success-icon/popup__success-fail-icon.css);
 @import url(./blocks/popup/__success-fail-text/popup__success-fail-text.css);
